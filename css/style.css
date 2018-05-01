@@ -1,4 +1,5 @@
 .test_site_dont_worry {
+<<<<<<< HEAD
     transform: rotate(45deg);
     position: fixed;
     top: -14px;
@@ -13,6 +14,23 @@
     font-size: 20px;
     font-family: roboto;
     text-transform: uppercase;
+=======
+        transform: rotate(45deg);
+        position: fixed;
+        top: -14px;
+        right: -97px;
+        width: 250px;
+        height: 77px;
+        background-color: #111;
+        z-index: 99;
+        color: #fff;
+        text-align: center;
+        line-height: 105px;
+        font-size: 20px;
+        font-family: roboto;
+        text-transform: uppercase;
+}
+>>>>>>> a63b800bc0058b4b6f9364d5b9e506ee4e63d62c
 
 body{
     font-family: 'Raleway',sans-serif;
