@@ -230,6 +230,9 @@ h1.know_ab {
 }
 
 button.read_more {
+    outline: none;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
     width: 169px;
     height: 50px;
     border: 2px solid #000;
@@ -243,7 +246,10 @@ button.read_more {
     letter-spacing: 0.8px;
     border-radius: 1px;
 }
-
+button.read_more:hover{
+    background-color: #333;
+    color:#fff;
+}
 h2 {
     color: #7b6c63;
     font-family: Raleway;
