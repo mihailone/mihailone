@@ -3,7 +3,7 @@
         position: absolute;
         right: 0;
         top: 0px;
-        width: 505px;
+        width: 520px;
     }
 }
 @media screen and (max-width:1200px) {
@@ -14,7 +14,7 @@
                 position: absolute;
                 right: 0;
                 top: 0px;
-                width: 505px;
+                width: 520px;
     }
 }
 @media screen and (max-width:700px) {
