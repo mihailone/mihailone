@@ -16,11 +16,19 @@
                 top: 0px;
                 width: 520px;
     }
+    main{
+        width: 100%;
+    }
+
 }
 @media screen and (max-width:700px) {
    .logo{
        margin-left: 20px;
        width: 100px;
+    }
+    button.download_psd_layout {
+        display: block;
+        margin: 0 auto;
     }
 }
 @media screen and (max-width:600px){
@@ -63,5 +71,18 @@
         font-size: 14px;
 
     }
-    
+    .fast_download{
+        min-width: 360px;
+    }
+    body>main>div>p:nth-child(2){
+        margin-left: 20px;
+    }
+    body>main>div>p:nth-child(3){
+        font-size:40px;
+        margin-left: 20px;
+    }
+    img.fast_d{
+        min-width: 360px;
+        height: 953px;
+    }
 }
