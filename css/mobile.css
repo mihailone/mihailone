@@ -20,6 +20,12 @@
         width: 100%;
     }
 
+    .fast_download{
+        margin-left: 20px;
+    }
+    img.fast_d{
+        height: 953px;
+    }
 }
 @media screen and (max-width:700px) {
    .logo{
@@ -73,6 +79,7 @@
     }
     .fast_download{
         min-width: 360px;
+        margin-left: 0px;
     }
     body>main>div>p:nth-child(2){
         margin-left: 20px;
