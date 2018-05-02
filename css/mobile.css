@@ -5,6 +5,26 @@
         top: 0px;
         width: 550px;
     }
+    .Rectangle_block {
+        padding-top: 80px;
+        display: block;
+        float: left;
+        width: 49%;
+    }
+
+    .Rectangle_image_2 {
+        background-image: url("../image/layer-4-1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        z-index: -1;
+        margin-left: 0;
+        width: 49%;
+        height: 478px;
+        min-width: 360px;
+        float: right;
+        margin-top: 80px;
+    }
 }
 @media screen and (max-width:1200px) {
     .menu{
@@ -26,8 +46,28 @@
     img.fast_d{
         height: 953px;
     }
+    .Rectangle_block {
+        padding-top: 80px;
+        display: block;
+        float: left;
+        width: 49%;
+        margin-left: 10px;
+    }
+    .Rectangle_image_2 {
+        background-image: url("../image/layer-4-1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        z-index: -1;
+        margin-left: 0;
+        width: 49%;
+        height: 478px;
+        min-width: 360px;
+        float: right;
+        margin-top: 80px;
+    }
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:715px) {
    .logo{
        margin-left: 20px;
        width: 100px;
@@ -35,6 +75,26 @@
     button.download_psd_layout {
         display: block;
         margin: 0 auto;
+    }
+    .Rectangle_image_2 {
+        background-image: url("../image/layer-4-1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        z-index: -1;
+        margin-left: 0;
+        width: 100%;
+        height: 160px;
+        min-width: 360px;
+        margin-top: 0;
+    }
+    .Rectangle_block{
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .rectangle_backgroun {
+        height: 650px;
     }
 }
 @media screen and (max-width:600px){
@@ -55,6 +115,21 @@
     .blog,
     .contact{
         margin: 0 14px;
+    }
+    .Rectangle_block{
+        text-align: center;
+        margin-left: 0px;
+    }
+    .Rectangle_image_2 {
+        background-image: url("../image/layer-4-1.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+        z-index: -1;
+        margin-left: 0;
+        width: 100%;
+        height: 200px;
+        min-width: 360px;
     }
 }
 @media screen and (max-width:480px){
@@ -81,15 +156,50 @@
         min-width: 360px;
         margin-left: 0px;
     }
-    body>main>div>p:nth-child(2){
+    .f_d_p_1{
         margin-left: 20px;
     }
-    body>main>div>p:nth-child(3){
+    .f_d_p_2 {
         font-size:40px;
         margin-left: 20px;
     }
     img.fast_d{
         min-width: 360px;
         height: 953px;
+    }
+    /**/
+    .info_page{
+        min-width:360px ;
+    }
+    h1.know_ab{
+        font-size:35px;
+    }
+    .info_page_min{
+        font-size:16px;
+        margin: 45px 15px 0px 15px;
+    }
+    .Rectangle{
+        width: 100%;
+    }
+    .Rectangle_block{
+        text-align: center;
+        min-width: 360px;
+        margin-left: 0px;
+    }
+    .Rectangle_image{display: none;}
+    .Rectangle_image_2{
+        background-image: url("../image/layer-4-1.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        z-index: -1;
+        margin-left: 0;
+        width: 100%;
+        height: 121px;
+        min-width: 360px;
+        margin-top: 0;
+    }
+    .rectangle_backgroun{
+        height: 700px;
     }
 }

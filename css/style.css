@@ -108,7 +108,7 @@ img.fast_d {
     margin-bottom: 150px;
 }
 
-body>main>div>p:nth-child(2) {
+.f_d_p_1 {
     margin: 0;
     color: #fff;
     font-family: Raleway;
@@ -118,7 +118,7 @@ body>main>div>p:nth-child(2) {
     text-transform: uppercase;
 }
 
-body>main>div>p:nth-child(3) {
+.f_d_p_2 {
     margin: 0px 0px 50px 0;
     color: #ffffff;
     font-family: Raleway;
@@ -191,6 +191,7 @@ h1.know_ab {
 }
 
 .rectangle_backgroun {
+    min-width: 360px;
     z-index: -1;
     position: absolute;
     left: 0px;
@@ -200,19 +201,32 @@ h1.know_ab {
 }
 
 .Rectangle {
-    width: 1200px;
-    height: 576px;
+    width: 100%;
 }
-
-img.Rectangle_image {
-    position: absolute;
+.Rectangle:after {
+    content: '.';
+    display: block;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.Rectangle_image_2 {
+    background-image: url("../image/layer-4-1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: -1;
+    margin-left: 0;
+    width: 100%;
+    height: 160px;
+    min-width: 360px;
 }
 
 .Rectangle_block {
     padding-top: 80px;
     display: block;
-    width: 590px;
-    float: left;
 }
 
 button.read_more {
