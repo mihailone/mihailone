@@ -1,0 +1,56 @@
+.diagram {
+  width: 160px;
+  height: 160px;
+  position: relative;
+  margin: 0px auto;
+  margin-top: 30px;
+  box-shadow: 0 0 0 4px #7b6c63;
+  border: solid 5px #fff0;
+  border-radius: 50%;
+}
+
+.diagram-data {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-transform: uppercase;
+        transform: uppercase;
+}
+
+.circle {
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 1.5;
+  /*       stroke-dasharray: 101 100; */
+}
+
+.circle-diagrams {
+  fill: transparent;
+  stroke: #FFF;
+  stroke-width: 1.5;
+}
+
+svg {
+  width: 150px;
+  height: 150px;
+  transform: rotate(-70deg);
+  background: transperent;
+  border-radius: 50%;
+}
+p.our_skill_naming {
+  position: relative;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.8px;
+  text-align: center;
+        margin-top: 30px;
+}

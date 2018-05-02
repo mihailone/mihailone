@@ -150,8 +150,12 @@ button.download_psd_layout {
 }
 button.download_psd_layout:hover {
     background-color: #1118;
+    outline:none;
 }
 body>main>div>a {
+    text-decoration: none;
+}
+body>main>div>a:hover {
     text-decoration: none;
 }
 .info_page {
@@ -271,6 +275,7 @@ p {
 }
 
 .services {
+    margin-bottom: 40px;
 }
 .services:after{
     content: '.';
@@ -332,7 +337,6 @@ h3 {
 
 p.servise_text {
     width: 335px;
-    height: 63px;
     color: #949494;
     font-family: Raleway;
     font-size: 16px;
@@ -344,27 +348,38 @@ p.servise_text {
 }
 
 .skills {
-    height: 466px;
+    background-color: #000000bf;
 }
-
+.skills:after {
+    content: '.';
+    display: block;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
 .skill_img_back {
     position: absolute;
     left: 0px;
     height: 466px;
+    min-width: 360px;
     width: 100%;
     background-image: url("../image/Prancz-Adam-portrefotos-slider-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-position: center -436px;
+    z-index: -2;
 }
 
 .skill_img_back_black {
     position: absolute;
     left: 0px;
     height: 466px;
+    min-width: 360px;
     width: 100%;
     background-color: #000000bf;
+    z-index: -1;
 }
 
 h1.our_skill {
@@ -377,7 +392,7 @@ h1.our_skill {
     text-transform: uppercase;
     letter-spacing: 1.2px;
     text-align: center;
-    padding-top: 105px;
+    padding-top: 50px;
 }
 
 .Marketing,
