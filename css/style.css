@@ -18,15 +18,14 @@ header {
 
 .logo {
     margin-left: 10px;
-            width: 157px;
-            height: 35px;
-            float: left;
-            padding: 30px 0;
-            background-image: url("../image/mairala.png");
-            background-repeat: no-repeat;
-            background-position: 0px center;
-            background-size: contain;
-            transition: all .2s ease-in-out;
+    width: 157px;
+    height: 95px;
+    float: left;
+    background-image: url("../image/mairala.png");
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    background-size: contain;
+    transition: all .2s ease-in-out;
 }
 
 .link {
