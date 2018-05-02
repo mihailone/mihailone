@@ -1,0 +1,67 @@
+@media screen and (min-width:1200px) {
+    .link {
+        position: absolute;
+        right: 0;
+        top: 0px;
+        width: 505px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .menu{
+        width: 100%;
+    }
+    .link{
+                position: absolute;
+                right: 0;
+                top: 0px;
+                width: 505px;
+    }
+}
+@media screen and (max-width:700px) {
+   .logo{
+       margin-left: 20px;
+       width: 100px;
+    }
+}
+@media screen and (max-width:600px){
+    .logo{display: none;}
+    .menu{
+        width: 100%;
+        min-width: 360px;
+
+    }
+    .link{
+        position: relative;
+        width: 470px;
+    }
+    .home,
+    .about,
+    .portfolio,
+    .team,
+    .blog,
+    .contact{
+        margin: 0 14px;
+    }
+}
+@media screen and (max-width:480px){
+    .link {
+        position: relative;
+        width: 360px;
+        padding: 30px 0;
+        margin: 0 auto;
+    }
+    .home {
+        /*margin-left: 25px !important;*/
+    }
+    .home,
+    .about,
+    .portfolio,
+    .team,
+    .blog,
+    .contact {
+        margin: 0 1px;
+        font-size: 14px;
+
+    }
+    
+}
