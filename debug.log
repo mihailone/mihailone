@@ -19,3 +19,6 @@
 [0502/154154.065:ERROR:crash_report_database_win.cc(568)] CreateDirectory D:\Program Files (x86)\reports: Отказано в доступе. (0x5)
 [0502/154154.067:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Канал был закрыт. (0x6D)
 [0502/154154.068:ERROR:crash_report_database_win.cc(568)] CreateDirectory D:\Program Files (x86)\reports: Отказано в доступе. (0x5)
+[0502/194022.357:ERROR:crash_report_database_win.cc(568)] CreateDirectory D:\Program Files (x86)\reports: Отказано в доступе. (0x5)
+[0502/194022.360:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0502/194022.361:ERROR:crash_report_database_win.cc(568)] CreateDirectory D:\Program Files (x86)\reports: Отказано в доступе. (0x5)
