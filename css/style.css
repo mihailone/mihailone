@@ -151,6 +151,9 @@ button.download_psd_layout {
 button.download_psd_layout:hover {
     background-color: #1118;
 }
+body>main>div>a {
+    text-decoration: none;
+}
 .info_page {
     padding: 91px 0;
     background-color: #fff;
