@@ -271,9 +271,16 @@ p {
 }
 
 .services {
-    height: 525px;
 }
-
+.services:after{
+    content: '.';
+    display: block;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
 .servise_h {
     margin-top: 90px;
     color: #7b6c63;
