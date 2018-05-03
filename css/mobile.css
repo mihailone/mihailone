@@ -308,7 +308,7 @@
         display: none;
     }
     .rectangle_backgroun{
-        height: 680px;
+        height: 650px;
     }
     body>main>div.Rectangle>div.Rectangle_block>p:nth-child(2),
     body>main>div.Rectangle>div.Rectangle_block>p:nth-child(3) {
