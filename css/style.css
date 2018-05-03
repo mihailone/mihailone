@@ -1,3 +1,14 @@
+/*after----------
+:after {
+    content: '.';
+    display: block;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+*/
 body {
     margin: 0;
     padding: 0;
@@ -302,27 +313,46 @@ body>main>div.services>p {
     text-align: center;
 }
 
-.consultancy {
-    float: left;
-    width: 400px;
-}
-
-.maketing {
-    float: left;
-    width: 400px;
-}
-
+.consultancy,
+.maketing,
 .reaserch {
-    width: 400px;
     float: left;
+    width: 400px;
+    margin: 10px 0;
 }
-
-img.servise_img {
-    margin: 37px 183px 9px 183px;
+.consultancy:before {
+    content: "";
+    display: block;
     width: 33px;
     height: 33px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    padding: 35px 40px;
+    background-image: url("../image/cons.png");
 }
-
+.maketing:before {
+    content: "";
+    display: block;
+    width: 33px;
+    height: 33px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    padding: 35px 40px;
+    background-image: url("../image/maketing.png");
+}
+.reaserch:before {
+    content: "";
+    display: block;
+    width: 33px;
+    height: 33px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    padding: 35px 40px;
+    background-image: url("../image/reaserch.png");
+}
 h3 {
     color: #363636;
     font-family: Raleway;
@@ -348,6 +378,7 @@ p.servise_text {
 
 .skills {
     background-color: #000000bf;
+    padding-bottom: 57px;
 }
 .skills:after {
     content: '.';
@@ -402,10 +433,20 @@ h1.our_skill {
     float: left;
     width: 240px;
 }
-
+div#portfolio {
+    margin-top: 55px;
+}
+div#portfolio:after {
+    content: '.';
+    display: block;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
 h1.recent-h1 {
     margin: 0;
-    margin-top: 89px;
     margin-bottom: 40px;
     color: #7b6c63;
     font-size: 40px;
@@ -437,8 +478,9 @@ p.recent-p {
 }
 
 .project_beck {
-    width: 1900px;
-    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .projects_prev {
@@ -447,7 +489,7 @@ p.recent-p {
 }
 
 img.project_img {
-    width: 475px;
+    width: 100%;
 }
 
 .twetter_news {

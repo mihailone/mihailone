@@ -357,4 +357,12 @@
         border-radius: 50%;
         float: none;
     }
+    /**/
+    p.recent-p{
+        width: 360px;
+        padding: 0 10px;
+    }
+    .projects{
+        min-width: 360px;
+    }
 }
