@@ -25,6 +25,9 @@
         float: right;
         margin-top: 80px;
     }
+        body>main>div.Rectangle>div.Rectangle_image_2>h2 {
+            display: none;
+        }
     .skills {
         background-color: #00000000;
     }
@@ -72,6 +75,9 @@
         float: right;
         margin-top: 80px;
     }
+            body>main>div.Rectangle>div.Rectangle_image_2>h2 {
+                display: none;
+            }
     .rectangle_backgroun{
         height: 630px;
     }
@@ -134,13 +140,24 @@
         min-width: 360px;
         margin-top: 0;
     }
+    body>main>div.Rectangle>div.Rectangle_image_2>h2 {
+        text-align: center;
+        line-height: 160px;
+        text-shadow: 2px 1px 0 #fff;
+        display: block;
+    }
     .Rectangle_block{
         width: 100%;
         text-align: center;
         margin-left: 0px;
+        padding-top: 20px;
+        
+    }
+    body>main>div.Rectangle>div.Rectangle_block>h2{
+        display: none;
     }
     .rectangle_backgroun {
-        height: 650px;
+               height: 550px;
     }
     .Marketing,
     .Reaserch,
@@ -186,6 +203,12 @@
         height: 200px;
         min-width: 360px;
     }
+        body>main>div.Rectangle>div.Rectangle_image_2>h2 {
+            text-align: center;
+            line-height: 121px;
+            text-shadow: 2px 1px 0 #fff;
+            display: block;
+        }
     /**/
 
     .services {
@@ -261,6 +284,7 @@
         text-align: center;
         min-width: 360px;
         margin-left: 0px;
+        padding-top: 20px;
     }
     .Rectangle_image{display: none;}
     .Rectangle_image_2{
@@ -275,8 +299,16 @@
         min-width: 360px;
         margin-top: 0;
     }
+    body>main>div.Rectangle>div.Rectangle_image_2>h2 {
+        text-align: center;
+        line-height: 121px;
+        text-shadow: 2px 1px 0 #fff;
+    }
+    body>main>div.Rectangle>div.Rectangle_block>h2{
+        display: none;
+    }
     .rectangle_backgroun{
-        height: 750px;
+        height: 570px;
     }
     body>main>div.Rectangle>div.Rectangle_block>p:nth-child(2),
     body>main>div.Rectangle>div.Rectangle_block>p:nth-child(3) {
