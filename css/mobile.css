@@ -447,7 +447,7 @@
     }
     .member {
         float: none;
-                margin: 0 auto;
+        margin: 0 auto!important;
         margin-bottom: 30px;
     }
     img.member_photo{
