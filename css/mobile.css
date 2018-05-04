@@ -34,6 +34,9 @@
     h1.our_skill{
         padding-top:105px;
     }
+    .twetter_beck{
+                height: 300px;
+    }
 }
 @media screen and (max-width:1200px) {
     .menu{
@@ -75,9 +78,9 @@
         float: right;
         margin-top: 80px;
     }
-            body>main>div.Rectangle>div.Rectangle_image_2>h2 {
-                display: none;
-            }
+    body>main>div.Rectangle>div.Rectangle_image_2>h2 {
+        display: none;
+    }
     .rectangle_backgroun{
         height: 630px;
     }
@@ -85,14 +88,24 @@
     .skill_img_back_black {
         display: none;
     }
-        .Marketing,
-        .Reaserch,
-        .Management,
-        .Consultancy,
-        .Promotion {
-            float: left;
-            width: 33%;
-        }
+    .Marketing,
+    .Reaserch,
+    .Management,
+    .Consultancy,
+    .Promotion {
+        float: left;
+        width: 33%;
+    }
+    .member{
+     width: 360px;
+    }
+    img.member_photo{
+        width: 360px;
+    }
+    .teams_back_color{
+        height: 822px;
+    }
+
 }
 @media screen and (max-width:800px){
     /**/
@@ -117,6 +130,12 @@
         padding: 30px 40px;
         width: 115px;
         height: 90px;
+    }
+    /**/
+    p.client_r_p{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 @media screen and (max-width:715px) {
@@ -229,6 +248,18 @@
         padding: 30px 40px;
         width: 33px;
         height: 33px;
+    }
+    /**/
+    footer{
+        width: 100%;
+    }
+    .footer_back{
+        height: 747px;
+    }
+    .footer_content {
+        width: 600px;
+        max-width: 600px;
+        min-width: 360px;
     }
 }
 @media screen and (max-width:480px){
@@ -364,5 +395,71 @@
     }
     .projects{
         min-width: 360px;
+    }
+    /**/
+    .twetter_news {
+        margin-bottom: 46px;
+    }
+    /**/
+    .teams_back_color {
+        min-width: 360px;
+        height: 2027px;
+    }
+    p.team_memb_p {
+        margin-top: 40px;
+        margin-bottom: 50px;
+        /* margin: 0 auto; */
+        width: 360px;
+        padding: 0px 10px;
+    }
+    .member {
+        margin-bottom: 30px;
+    }
+    img.member_photo{
+        min-width: 360px;
+        width: 360px;
+    }
+    .member_info {
+        min-width: 360px;
+        width: 360px;
+    }
+    .member.m_center {
+        margin: 0px 0px;
+        margin-bottom: 30px;
+    }
+    .social_link{
+        width: 360px;
+        min-width: 360px;
+    }
+    /**/
+    p.client_r_p{
+        min-width: 360px;
+        width: 360px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    .reviews,
+    .reviews_back,
+    .carousel {
+        height:530px ;
+    }
+    /**/
+    .footer_back{height: 1369px;
+    }
+    .footer_content{
+        width: 360px;
+        min-width: 360px;
+    }
+    .footer_block_1,
+    .footer_recent_posts,
+    .footer_twiter_feeds,
+    .footer_our_address {
+                float: none;
+                margin-right: 0px;
+                margin:0 auto;
+    }
+    .footer_our_address {
+        width: 270px;
     }
 }
