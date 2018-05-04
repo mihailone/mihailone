@@ -105,7 +105,25 @@
     .teams_back_color{
         height: 822px;
     }
-
+    footer{
+        width: 100%;
+    }
+    .footer_content{
+        padding-left: 30px;
+    }
+    .footer_back{
+        height:712px;
+    }
+}
+@media screen and (max-width:930px) {
+    .footer_back{
+        height:712px;
+    }
+}
+@media screen and (max-width:910px) {
+    .footer_back {
+        height: 747px;
+    }
 }
 @media screen and (max-width:800px){
     /**/
@@ -134,7 +152,7 @@
     /**/
     .member {
         float: none;
-        margin: 0 auto;
+        margin: 0 auto!important;
         margin-bottom: 30px;
     }
     /**/
@@ -142,6 +160,9 @@
         width: 100%;
         padding-left: 10px;
         padding-right: 10px;
+    }
+    .footer_back{
+
     }
 }
 @media screen and (max-width:715px) {
@@ -193,6 +214,13 @@
         width: 50%;
         background-color: #404040;
     }
+    .footer_back{
+
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:630px) {
+    .footer_back { height: 747px;}
 }
 @media screen and (max-width:600px){
     .logo{display: none;}
@@ -260,10 +288,9 @@
         width: 100%;
     }
     .footer_back{
-        height: 747px;
+        height: 1369px;
     }
     .footer_content {
-        width: 600px;
         max-width: 600px;
         min-width: 360px;
     }
