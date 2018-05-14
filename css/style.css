@@ -8,6 +8,7 @@ body{
 }
 header {
     display: flex;
+    justify-content: center;
     width: 100%;
     background-color: #fff;
     color: #676767;
@@ -21,7 +22,6 @@ header {
 }
 .head_link_block {
     width: 1440px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
