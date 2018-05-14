@@ -14,6 +14,9 @@
     main{
         width: 1000px;
     }
+    .head_link_block{
+        margin: 0 0;
+    }
 }
 @media screen and (max-width: 900px) {
     main{
