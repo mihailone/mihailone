@@ -44,6 +44,27 @@ p.head {
     height: 29px;
     background-image: url("../image/github-logo.svg");
 }
+.link.vk.footer_link:hover:after,
+.link.vk:hover:after,
+.link.codepen:hover:after,
+.link.github:hover:after {
+    transform: scale(1.6) translateX(0px) translateY(0px);
+    transition: all .2s ease-in-out;
+}
+
+.link.vk.footer_link:after,
+.link.vk:after,
+.link.codepen:after,
+.link.github:after {
+    content: '';
+    display: block;
+    width: 29px;
+    height: 29px;
+    background-color: rgba(51, 51, 51, 0.1);
+    transform: scale(0) translateX(0px) translateY(0px);
+    border-radius: 50%;
+    transition: all .2s ease-in-out;
+}
 /*link*/
 main {
     width: 1440px;
