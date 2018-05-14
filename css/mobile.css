@@ -1,0 +1,23 @@
+@media screen and (max-width:480px){
+    .head_link_block{
+        min-width: 360px;
+        width: 100%;
+    }
+    p.head{
+        margin-left: 30px;
+    }
+    .link.vk{
+        margin-right: 30px;
+    }
+    main{
+       min-width: 360px;
+       width: 100%;
+    }
+    .project_preview{
+        width: 360px;
+        margin: 0;
+    }
+    body>main>div>a:nth-child(2)>div {
+        margin-top: 25px;
+    }
+}
