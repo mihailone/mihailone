@@ -66,6 +66,9 @@ p.head {
     transition: all .2s ease-in-out;
 }
 /*link*/
+a.link {
+    text-decoration: none;
+}
 main {
     width: 1440px;
     margin-top: 25px;
@@ -82,6 +85,7 @@ main {
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url("../image/card-1.PNG");
+        border-radius: 5px 5px 0px 0px;
 
 }
 .project_previw_photo.card-2{
@@ -90,17 +94,29 @@ main {
         background-repeat: no-repeat;
         background-size: contain;
         background-image: url("../image/card-2.PNG");
+        border-radius: 5px 5px 0px 0px;
 }
 .project_preview {
     width: 400px;
+    height: 100%;
     margin: 0 30px;
     -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, .3);
     box-shadow: 0 1px 8px rgba(0, 0, 0, .3);
     transition: all .2s ease-in-out;
+    border-radius: 5px;
 }
 .project_preview:hover {
     -webkit-box-shadow: 0 15px 22px rgba(0, 0, 0, .3);
     box-shadow: 0 15px 22px rgba(0, 0, 0, .3);
+}
+h6 {
+    margin: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    letter-spacing: 5px;
 }
 /*card*/
 footer{
