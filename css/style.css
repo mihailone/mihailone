@@ -1,7 +1,10 @@
 body{
     margin: 0;
-        font-family: 'Roboto',
-        sans-serif;
+    font-family: 'Roboto',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 header {
     display: flex;
@@ -44,14 +47,13 @@ p.head {
 /*link*/
 main {
     width: 1440px;
-    margin: 0 auto;
     margin-top: 25px;
-    display: flex;
     margin-bottom: 80px;
 }
 .project_link {
     width: 100%;
     display: flex;
+    justify-content: space-evenly;
 }
 .project_previw_photo.card-1 {
     width: 100%;
