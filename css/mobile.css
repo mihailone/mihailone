@@ -11,7 +11,9 @@
 }
 
 @media screen and (max-width: 1000px) {
-
+    main{
+        width: 1000px;
+    }
 }
 @media screen and (max-width: 900px) {
     main{
