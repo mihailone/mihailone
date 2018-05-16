@@ -184,21 +184,21 @@ footer{
     content: '';
     z-index: -20;
     transition: all .2s ease-in-out;
-    width: 37px;
-    height: 37px;
+    width: 41px;
+    height: 41px;
     border-radius: 50%;
     display: block;
     background-color: #333;
     position: absolute;
-    transform: translateX(30px) translateY(-26px);
+    transform: translateX(30px) translateY(-30px);
 }
 
 .my_projects:hover:after {
     content: '';
-    width: 37px;
-    height: 37px;
+    width: 41px;
+    height: 41px;
     display: block;
     background-color: #333;
     position: absolute;
-    transform: translateX(30px) translateY(-26px) scale(4);
+    transform: translateX(30px) translateY(-30px) scale(4);
 }
