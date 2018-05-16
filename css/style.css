@@ -31,7 +31,7 @@ p.head {
 }
 /*link*/
 a.head_link_home {
-    display: none;
+
 }
 .link.vk{
     width: 29px;
@@ -190,7 +190,8 @@ footer{
     display: block;
     background-color: #333;
     position: absolute;
-    transform: translateX(30px) translateY(-30px);
+        transform: translateX(-50%) translateY(-30px);
+        left: 50%;
 }
 
 .my_projects:hover:after {
@@ -200,5 +201,6 @@ footer{
     display: block;
     background-color: #333;
     position: absolute;
-    transform: translateX(30px) translateY(-30px) scale(4);
+    transform: translateX(-50%) translateY(-30px) scale(4);
+    left: 50%;
 }
