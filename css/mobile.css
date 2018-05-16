@@ -1,4 +1,14 @@
+@media screen and (max-width:1440px){
+    main{
+        width: 1200px; ;
+    }
+}
+
 @media screen and (max-width:1200px) {
+    main {
+        width: 1000px;
+        ;
+    }
     .head_link_block{
         width: 1200px;
     }
@@ -12,10 +22,17 @@
 
 @media screen and (max-width: 1000px) {
     main{
-        width: 1000px;
+        width: 9000px;
     }
     .head_link_block{
         margin: 0 0;
+    }
+    a.head_link_home {
+        display: block;
+        margin-right: 30px;
+    }
+    a.vk_link.head_vk{
+        display: none;
     }
 }
 @media screen and (max-width: 900px) {
