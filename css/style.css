@@ -168,9 +168,10 @@ footer{
 }
 .my_projects {
     position: relative;
+    overflow: hidden;
     text-decoration: none;
     color: #000;
-    padding: 10px 15px;
+    padding:0 15px;
     text-transform: uppercase;
     cursor: pointer;
     outline: none;
@@ -190,7 +191,7 @@ footer{
     display: block;
     background-color: rgba(0, 0, 0, .1);
     position: absolute;
-    transform: translateX(-50%) translateY(-29px) scale(0);
+    transform: translateX(-50%) translateY(-95%) scale(0);
     left: 50%;
 }
 
@@ -201,7 +202,7 @@ footer{
     display: block;
     background-color: rgba(0, 0, 0, .1);
     position: absolute;
-    transform: translateX(-50%) translateY(-26px) scale(5);
+    transform: translateX(-50%) translateY(-95%) scale(5);
     left: 50%;
     transition: all .25s ease-in-out;
 }
