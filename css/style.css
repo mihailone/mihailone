@@ -164,7 +164,6 @@ footer{
 .link_project {
     overflow: hidden;
     padding: 10px 0;
-    background-repeat: 3px;
 }
 .my_projects {
     position: relative;
@@ -176,6 +175,7 @@ footer{
     cursor: pointer;
     outline: none;
     transition: all .2s ease-in-out;
+    border-radius:3px;
 }
 
 .my_projects:hover {
