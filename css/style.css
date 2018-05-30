@@ -134,6 +134,17 @@ h6 {
     font-weight: 100;
     width: 100%;
 }
+h6:after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-image: url("../image/icons/arrow_right.svg");
+    transition: transform .2s ease-in-out;
+}
+.project_preview:hover h6:after{
+    transform: translateX(10px);
+}
 /*card*/
 footer{
    display: flex;
