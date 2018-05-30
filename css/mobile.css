@@ -35,9 +35,7 @@
         margin-top: 25px;
     }
     .project_link {
-        flex-direction: column;
         flex-wrap: wrap;
-        align-content: space-around;
     }
     .project_preview{
         width: 480px;
