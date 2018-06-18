@@ -4,6 +4,7 @@
 @media screen and (max-width:1200px) {
     .head_link_block{
         width: 1200px;
+        margin: 0;
     }
     p.head{
         margin-left: 30px;
