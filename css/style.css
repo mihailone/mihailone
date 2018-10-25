@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #fff;
+    color: #676767;
+    padding: 16px 0px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, .3);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, .3);
+}
+.head_link_block {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px;
+}
+p.head {
+    margin: 0;
+}
+/*link*/
+a.head_link_home {
+
+}
+.link.vk{
+    width: 29px;
+    height: 29px;
+    background-image: url("../image/vk.svg");
+}
+.link.codepen{
+    width: 29px;
+    height: 29px;
+    background-image: url("../image/codepen-logo.svg");
+}
+.link.github{
+    width: 29px;
+    height: 29px;
+    background-image: url("../image/github-logo.svg");
+}
+.link.home{
+    width: 29px;
+    height: 29px;
+    background-image: url("../image/home-link.svg");
+}
+.link.vk.footer_link:hover:after,
+.link.vk:hover:after,
+.link.codepen:hover:after,
+.link.github:hover:after,
+.link.home:hover:after {
+    transform: scale(1.6) translateX(0px) translateY(0px);
+    transition: all .15s ease-in-out;
+}
+
+.link.vk.footer_link:after,
+.link.vk:after,
+.link.codepen:after,
+.link.github:after,
+.link.home:after {
+    content: '';
+    display: block;
+    width: 29px;
+    height: 29px;
+    background-color: rgba(51, 51, 51, 0.1);
+    transform: scale(0) translateX(0px) translateY(0px);
+    border-radius: 50%;
+    transition: all 0s ease-in-out;
+}
+/*link*/
+a.link {
+    text-decoration: none;
+}
+main {
+    max-width: 1440px;
+    width: 100%;
+    min-width: 320px;
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+.project_link {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.project_previw_photo.card-1 {
+    width: 100%;
+    height: 196px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../image/card-1.PNG");
+        border-radius: 5px 5px 0px 0px;
+
+}
+.project_previw_photo.card-2{
+        width: 100%;
+        height: 214px;
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: cover;
+        background-image: url("../image/card-2.PNG");
+        border-radius: 5px 5px 0px 0px;
+}
+.project_previw_photo.card-test {
+    width: 100%;
+    height: 214px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../image/card-test.png");
+    border-radius: 5px 5px 0px 0px;
+}
+.project_preview {
+    width: 400px;
+    height: 100%;
+    -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, .1);
+    transition: all .1s ease-in-out;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project_preview:hover {
+    -webkit-box-shadow: 0 15px 22px rgba(0, 0, 0, .1);
+    box-shadow: 0 15px 22px rgba(0, 0, 0, .1);
+}
+h6 {
+    margin: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    letter-spacing: 5px;
+    font-weight: 100;
+    width: 100%;
+}
+h6:after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-image: url("../image/icons/arrow_right.svg");
+    transition: transform .2s ease-in-out;
+}
+.project_preview:hover h6:after{
+    transform: translateX(10px);
+}
+/*card*/
+footer{
+   display: flex;
+    justify-content: center;
+   width: 100%;
+   background-color: #fff;
+   color: #676767;
+   padding: 16px 0px;
+   text-transform: uppercase;
+   font-family: 'Roboto',
+   sans-serif;
+   font-weight: 600;
+   font-size: 24px;
+   -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, .3);
+   box-shadow: 0 1px 8px rgba(0, 0, 0, .3);
+    position: fixed;
+    bottom: 0;
+   z-index:999;
+}
+.footer_content {
+    width: 1440px;
+}
+.social_link {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 25px;
+}
+.link.vk.footer_link {
+    margin-right: 0;
+}
+/*my projects*/
