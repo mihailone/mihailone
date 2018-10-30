@@ -1,0 +1,36 @@
+@font-face {
+    font-family: GoogleSans-Bold;
+    /* Имя шрифта */
+    src: url("../fonts/Google-Sans-Font/GoogleSans-Bold.ttf");
+    /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: GoogleSans-BoldItalic;
+    /* Имя шрифта */
+    src: url("../fonts/Google-Sans-Font/GoogleSans-BoldItalic.ttf");
+    /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: GoogleSans-Italic;
+    /* Имя шрифта */
+    src: url("../fonts/Google-Sans-Font/GoogleSans-Italic.ttf");
+    /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: GoogleSans-Medium;
+    /* Имя шрифта */
+    src: url("../fonts/Google-Sans-Font/GoogleSans-Medium.ttf");
+    /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: GoogleSans-MediumItalic;
+    /* Имя шрифта */
+    src: url("../fonts/Google-Sans-Font/GoogleSans-MediumItalic.ttf");
+    /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: GoogleSans-Regular;
+    /* Имя шрифта */
+    src: url("../fonts/Google-Sans-Font/GoogleSans-Regular.ttf");
+    /* Путь к файлу со шрифтом */
+}

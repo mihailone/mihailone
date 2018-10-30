@@ -32,9 +32,7 @@
 }
 @media screen and (max-width: 900px) {
 
-    body>main>div>a:nth-child(2)>div {
-        margin-top: 25px;
-    }
+
     .project_link {
         flex-wrap: wrap;
     }
