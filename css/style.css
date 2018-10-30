@@ -21,8 +21,7 @@ header {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 23px;
-    -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, .3);
-    box-shadow: 0 1px 8px rgba(0, 0, 0, .3);
+    border-bottom: 1px solid #dadce0;
 }
 .head_link_block {
     width: 1440px;
@@ -128,8 +127,8 @@ main {
 .project_preview {
     width: 400px;
     height: 100%;
-    -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, .1);
-    box-shadow: 0 1px 8px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 0px 0px 1px rgba(0, 0, 0, .1);
+    box-shadow: 0 0px 0px 1px rgba(0, 0, 0, .1);
     transition: all .1s ease-in-out;
     border-radius: 8px;
     display: flex;
@@ -174,8 +173,7 @@ footer{
    sans-serif;
    font-weight: 600;
    font-size: 24px;
-   -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, .3);
-   box-shadow: 0 1px 8px rgba(0, 0, 0, .3);
+   border-top: 1px solid #dadce0;
     position: fixed;
     bottom: 0;
    z-index:999;
