@@ -51,7 +51,11 @@
         align-items: center;
     }
 }
-
+@media screen and (max-width: 768px) {
+    footer{
+        border-radius: 8px 8px 0 0;
+    }
+}
 @media screen and (max-width:480px){
     .head_link_block{
         min-width: 360px;
