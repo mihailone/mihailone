@@ -1,11 +1,6 @@
 body{
     margin: 0;
-    font-family:GoogleSans-Bold,
-    GoogleSans-BoldItalic,
-    GoogleSans-Italic,
-    GoogleSans-Medium,
-    GoogleSans-MediumItalic,
-    GoogleSans-Regular;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
