@@ -32,6 +32,9 @@ p.head {
 a.head_link_home {
 
 }
+.test__link{
+    display:none;
+}
 .link.vk{
     width: 29px;
     height: 29px;
