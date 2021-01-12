@@ -11,6 +11,7 @@
     <link type="text/css" rel="stylesheet" href="css/mobile.css">
     <link type="text/css" rel="stylesheet" href="css/fonts.css">
     <link type="text/css" rel="stylesheet" href="css/theme.css">
+    <script src="js/tabs.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:100,300,400,500,700,900,100i,300i,400i,500i,700i,900i">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129021614-1"></script>
@@ -18,37 +19,94 @@
 <body>
     <header>
         <div class="head_link_block">
-            <p class="head">My Projects</p>
+            <p class="head">MN</p>
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'one')" id="defaultOpen">My projects</button>
+                <button class="tablinks" onclick="openCity(event, 'two')">My skills</button>
+            </div>
             <a href="https://vk.com/id442640944" class="vk_link " target="blank" title="VK">
                     <div class="link vk top_link"></div>
                 </a>
         </div>
     </header>
     <main>
-    <div class="project_link">
-        <a href="https://mihailone.github.io/onetest/" class="link" target="blank">
-            <div class="project_preview">
-                <img src="image/card-1.PNG" loading="eager" alt="flex page" class="project_previw_photo card-1">
-                <h6>flex page</h6>
+        <div id="one" class="tabcontent">
+            <div class="project_link">
+                <a href="https://mihailone.github.io/onetest/" class="link" target="blank">
+                    <div class="project_preview">
+                        <img src="image/card-1.PNG" loading="eager" alt="flex page" class="project_previw_photo card-1">
+                        <h6>flex page</h6>
+                    </div>
+                </a>
+        
+                <a href="https://mihailone.github.io/project.1/" class="link" target="blank">
+                    <div class="project_preview">
+                        <img src="image/card-2.PNG" loading="eager" alt="adaptive page" class="project_previw_photo card-2">
+                        <h6>adaptive page</h6>
+                    </div>
+                </a>
+        
+                <a href="https://mihailone.github.io/testpage/" class="link test__link" target="blank">
+                    <div class="project_preview">
+                        <div class="project_previw_photo card-test">
+                            <p class="test__page">test</p>
+                        </div>
+                        <h6>test page</h6>
+                    </div>
+                </a>
             </div>
-        </a>
-
-        <a href="https://mihailone.github.io/project.1/" class="link" target="blank">
-            <div class="project_preview">
-                <img src="image/card-2.PNG" loading="eager" alt="adaptive page" class="project_previw_photo card-2">
-                <h6>adaptive page</h6>
-            </div>
-        </a>
-
-        <a href="https://mihailone.github.io/testpage/" class="link test__link" target="blank">
-            <div class="project_preview">
-                <div class="project_previw_photo card-test">
-                    <p class="test__page">test</p>
+          </div>
+          <div id="two" class="tabcontent">
+            <div class="ms__container">
+                <div class="my_info">
+                    <h1 class="info__greeting">Привет, меня зовут Михаил и я начинающий веб разработчик.</h1>
+                    <p class="info__text">Родился 1996 году, 28 июня. На данный момент проживаю в городе Чебоксары</p>
+                    <h2 class="info__skil">Мои умения</h2>
+                    <p class="info__text">    
+                        Профессионально владею:
+                        <br/>
+                        — HTML
+                        <br/>
+                        — CSS
+                        <br/>
+                        — Flex box
+                        <br/>
+                        — Адаптивная верстка
+                        <br/>
+                        <!--— CSS Animation
+                        Хорошо владею:
+                        — Adobe Photoshop
+                        — GIT
+                        — jQuery -->
+                        <!--Владею на среднем уровне:-->
+                        Знаю на базовом уровне:
+                        <br/>
+                        — Почтовая верстка
+                        <br/>
+                        Хотел бы изучить/усовершенствовать:
+                        <br/>
+                        — JavaScript
+                        <br/>
+                        — React
+                        <br/>
+                        — Angular
+                        <br/>
+                        — VueJS
+                        <br/>
+                        — Node.js
+                        <br/>
+                        — Canvas
+                        <br/>
+                        — Jade/Pug
+                        <br/>
+                        — WordPress
+                        <br/>
+                        — React
+                        <br/>
+                        — PHP</p>
                 </div>
-                <h6>test page</h6>
-            </div>
-        </a>
-    </div>
+            </div> 
+          </div>
     </main>
     <footer>
         <div class="footer_content">
@@ -73,5 +131,9 @@
 
             gtag('config', 'UA-129021614-1');
         </script>
+        <script>
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+            </script>
 </body>
 </html>

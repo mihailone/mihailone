@@ -182,3 +182,61 @@ p.test__page {
     text-align: center;
     text-transform: uppercase;
 }
+/*tab*/
+.tablinks {
+    position: relative;
+    padding: 0px 10px;
+    margin: 0;
+    border-radius: 0;
+    border: 0;
+    background-color: transparent;
+    color: #9aa0a6;
+    font-size: 20px;
+    text-transform: uppercase;
+    outline: none;
+}
+button.tablinks.active{
+    color: #fff;
+}
+button.tablinks.active:before{
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+.tablinks:hover:before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+.tablinks:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.ms__container {
+    -webkit-box-shadow: 0 0px 0px 1px rgba(95, 99, 104, 0.5);
+    box-shadow: 0 0px 0px 1px rgba(95, 99, 104, 0.5);
+    transition: all .1s ease-in-out;
+    border-radius: 2px;
+    padding: 20px 20px;
+    background-color: #272727;
+    color: #9aa0a6;
+}
