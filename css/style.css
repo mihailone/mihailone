@@ -18,7 +18,7 @@ header {
 .head_link_block {
     width: 1440px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0 25px;
 }
 p.head {
