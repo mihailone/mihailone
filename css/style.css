@@ -1,4 +1,8 @@
-body{
+@import 'fonts.css';
+@import 'theme.css';
+@import 'mobile.css';
+
+body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -6,6 +10,7 @@ body{
     align-items: center;
     flex-direction: column;
 }
+
 header {
     display: flex;
     justify-content: center;
@@ -15,42 +20,49 @@ header {
     font-weight: 600;
     font-size: 23px;
 }
+
 .head_link_block {
     width: 1440px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 0 25px;
 }
+
 p.head {
     margin: 0;
 }
-/*link*/
-a.head_link_home {
 
+/*link*/
+a.head_link_home {}
+
+.test__link {
+    display: none;
 }
-.test__link{
-    display:none;
-}
-.link.vk{
+
+.link.vk {
     width: 29px;
     height: 29px;
     background-image: url("../image/vk.svg");
 }
-.link.codepen{
+
+.link.codepen {
     width: 29px;
     height: 29px;
     background-image: url("../image/codepen-logo.svg");
 }
-.link.github{
+
+.link.github {
     width: 29px;
     height: 29px;
     background-image: url("../image/github-logo.svg");
 }
-.link.home{
+
+.link.home {
     width: 29px;
     height: 29px;
     background-image: url("../image/home-link.svg");
 }
+
 .link.vk.footer_link:hover:after,
 .link.vk:hover:after,
 .link.codepen:hover:after,
@@ -73,11 +85,13 @@ a.head_link_home {
     border-radius: 50%;
     transition: all 0s ease-in-out;
 }
+
 /*link*/
 a.link {
     margin-top: 45px;
     text-decoration: none;
 }
+
 main {
     max-width: 1440px;
     width: 100%;
@@ -85,12 +99,14 @@ main {
     margin-top: 25px;
     margin-bottom: 80px;
 }
+
 .project_link {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 .project_previw_photo.card-1 {
     width: 100%;
     height: 214px;
@@ -100,14 +116,16 @@ main {
     border-radius: 8px 8px 0px 0px;
 
 }
-.project_previw_photo.card-2{
+
+.project_previw_photo.card-2 {
     width: 100%;
     height: 214px;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
     background-size: cover;
     border-radius: 8px 8px 0px 0px;
 }
+
 .project_previw_photo.card-test {
     width: 100%;
     height: 214px;
@@ -116,6 +134,7 @@ main {
     background-size: cover;
     border-radius: 8px 8px 0px 0px;
 }
+
 .project_preview {
     width: 400px;
     height: 100%;
@@ -126,6 +145,7 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
+
 h6 {
     margin: 15px 0;
     text-align: center;
@@ -136,6 +156,7 @@ h6 {
     font-weight: 100;
     width: 100%;
 }
+
 h6:after {
     content: "";
     width: 24px;
@@ -144,35 +165,41 @@ h6:after {
     background-image: url("../image/icons/arrow_right.svg");
     transition: transform .2s ease-in-out;
 }
-.project_preview:hover h6:after{
+
+.project_preview:hover h6:after {
     transform: translateX(10px);
 }
+
 /*card*/
-footer{
-   display: flex;
-   justify-content: center;
-   width: 100%;
-   padding: 16px 0px;
-   text-transform: uppercase;
-   font-family: 'Roboto',sans-serif;
-   font-weight: 600;
-   font-size: 24px;
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 16px 0px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
     position: fixed;
     bottom: 0;
-   z-index:999;
-   backdrop-filter: blur(10px);
+    z-index: 999;
+    backdrop-filter: blur(10px);
 }
+
 .footer_content {
     width: 1440px;
 }
+
 .social_link {
     display: flex;
     justify-content: space-between;
     margin: 0px 25px;
 }
+
 .link.vk.footer_link {
     margin-right: 0;
 }
+
 /*my projects*/
 p.test__page {
     margin: 0;
@@ -181,6 +208,7 @@ p.test__page {
     text-align: center;
     text-transform: uppercase;
 }
+
 /*tab*/
 .tablinks {
     position: relative;
@@ -194,10 +222,12 @@ p.test__page {
     text-transform: uppercase;
     outline: none;
 }
-button.tablinks.active{
+
+button.tablinks.active {
     color: #fff;
 }
-button.tablinks.active:before{
+
+button.tablinks.active:before {
     content: "";
     position: absolute;
     top: 40px;
@@ -206,6 +236,7 @@ button.tablinks.active:before{
     height: 2px;
     background-color: #fff;
 }
+
 .tablinks:hover:before {
     content: "";
     position: absolute;
@@ -215,19 +246,26 @@ button.tablinks.active:before{
     height: 2px;
     background-color: #fff;
 }
+
 .tablinks:hover {
     color: #fff;
     cursor: pointer;
 }
 
 .tabcontent {
-    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+    animation: fadeEffect 1s;
+    /* Fading effect takes 1 second */
 }
 
 /* Go from zero to full opacity */
 @keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .ms__container {
