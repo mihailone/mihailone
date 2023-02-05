@@ -9,7 +9,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link type="text/css" rel="stylesheet" href="css/style.css">
-    <script src="js/tabs.js"></script>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Google+Sans:100,300,400,500,700,900,100i,300i,400i,500i,700i,900i">
 </head>
@@ -19,8 +18,8 @@
         <div class="head_link_block">
             <p class="head">MN</p>
             <div class="tab">
-                <button class="tablinks" onclick="openCity(event, 'one')" id="defaultOpen">My projects</button>
-                <button class="tablinks" onclick="openCity(event, 'two')">My skills</button>
+                <button class="tablinks">My projects</button>
+                <button class="tablinks">My skills</button>
             </div>
         </div>
     </header>
@@ -52,7 +51,7 @@
                 </a>
             </div>
         </div>
-        <div id="two" class="tabcontent">
+        <div id="two" class="tabcontent" hidden>
             <div class="ms__container">
                 <div class="my_info">
                     <h1 class="info__greeting">Привет, меня зовут Михаил и я начинающий веб разработчик.</h1>
@@ -117,6 +116,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/tabs.js"></script>
 </body>
 
 </html>
